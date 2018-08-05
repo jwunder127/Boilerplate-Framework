@@ -4,7 +4,10 @@
   "description": "A boilerplate for creating webapps, contains back and front ends",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack --mode development --watch & http-server ./public"
+    "start": "node index.js",
+    "serve": "webpack --mode development --watch & http-server ./public",
+    "dev": "NODE_ENV=local npm start & npm run serve",
+    "build": "NODE_ENV=production webpack --mode production"
   },
   "repository": {
     "type": "git",
