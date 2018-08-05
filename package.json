@@ -1,0 +1,19 @@
+{
+  "name": "boilerplate-framework",
+  "version": "1.0.0",
+  "description": "A boilerplate for creating webapps, contains back and front ends",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwunder127/Boilerplate-Framework.git"
+  },
+  "author": "John Underwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwunder127/Boilerplate-Framework/issues"
+  },
+  "homepage": "https://github.com/jwunder127/Boilerplate-Framework#readme"
+}
