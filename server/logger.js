@@ -1,3 +1,0 @@
-/**
- * Winston Logger Module
- */

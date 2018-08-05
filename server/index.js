@@ -1,3 +1,0 @@
-/**
- * Main Server Index File
- */
