@@ -14,13 +14,13 @@ router.use(cache.addResponseToCache);
 
 // Check that id param is valid number
 const idValidator = validate({
-  params: { id: joi.number().min(0).max(1000)
+  params: { id: joi.number().min().max()
     .required() }
 });
 
 // Check that query param is valid location type
 const typeValidator = validate({
-  params: { type: joi.string().valid(['castle', 'city', 'town', 'ruin', 'landmark', 'region']).required() }
+  params: { type: joi.string().valid([]).required() }
 });
 
 // Hello World Test Endpoint
